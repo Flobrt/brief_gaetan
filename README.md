@@ -1,6 +1,7 @@
 # Projet: Pipeline ETL avec Airflow, Postgres et Streamlit 
 
 Ce projet est un pipeline complet de traitement des données : 
+ - Vérification que nous sommes bien dans une année impaire (pour que le code s'exécute tous les deux ans).
  - Lecture d'un fichier CSV tous les 2 ans (nouveaux jeux = nouvelles données).
  - Chargement des données dans une base de données Postgres.
  - Requêtage de la base depuis Streamlit.
