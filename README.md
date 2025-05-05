@@ -9,32 +9,34 @@ Ce projet est un pipeline complet de traitement des données :
 
 ## Structure du projet 
 
-5.brief_jo/   
-├── app/                        ← Application streamlit
-│   ├── app.py                  
+```plaintext
+5.brief_jo/
+├── app/                      ← Application Streamlit
+│   ├── app.py
 │   ├── requirements.txt
 │   └── Dockerfile
-├── plugins/                    ← Dossier créé par Airflow
-├── dags/                       ← Dossier dags
-├── config/                     ← Dossier créé par Airflow
-├── logs/                       ← Logs de airflow
-├── data/                       ← Fichiers CSV pour simuler l'entrer de données
+├── plugins/                 ← Dossier créé par Airflow
+├── dags/                    ← Dossier des DAGs Airflow
+├── config/                  ← Dossier de config Airflow
+├── logs/                    ← Logs d’Airflow
+├── data/                    ← Fichiers CSV simulant l'entrée de données
 ├── docker-compose.yml
-├── preprocess_data.ipynb       ← Séparation des données de tests
+├── preprocess_data.ipynb    ← Séparation des données de test
 └── README.md
+```
 
 ## Lancer le projet
 
 1. Cloner le repo
 
-```
+```bash
 git clone <lien-du-repo>
 cd project/
 ```
 
 2. Lancer l'application
 
-```
+```bash
 docker compose up --build
 ```
 
