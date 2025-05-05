@@ -1,9 +1,9 @@
 # Projet: Pipeline ETL avec Airflow, Postgres et Streamlit 
 
-Ce projet est un pipeline complet de tratiement de la données : 
- - Lecture d'un fichier CSV tous les 2ans (nouveaux jeaux = nouvelles données).
+Ce projet est un pipeline complet de traitement des données : 
+ - Lecture d'un fichier CSV tous les 2 ans (nouveaux jeux = nouvelles données).
  - Chargement des données dans une base de données Postgres.
- - Requetage de la base depuis Streamlit.
+ - Requêtage de la base depuis Streamlit.
  - Entierement conteneurisé avec Docker-compose. 
 
 
@@ -32,7 +32,7 @@ git clone <lien-du-repo>
 cd project/
 ```
 
-2. Lancer le projet 
+2. Lancer l'application
 
 ```
 docker compose up --build
@@ -45,8 +45,8 @@ Streamlit App : http://localhost:8501
 ## Utilisation
 
 ### Ajout de données
-Le fichier dags/data/fact_resultats_epreuves.csv va etre lu et les données vont être ajoutées en base si elles n'existent pas. 
-Il faut ajouter de nouvelles données au fichier dags/data/fact_resultats_epreuves.csv pour simuler l'entrer de nouvelles données. 
+Le fichier dags/data/fact_resultats_epreuves.csv va être lu et les données vont être ajoutées en base si elles n'existent pas. 
+Il faut ajouter de nouvelles données au fichier dags/data/fact_resultats_epreuves.csv pour simuler l'entrer de nouvelles données (a prendre dans le fichier data/). 
 
 ### Lancer le DAG airflow :
 1. Accèder à l'ui Airflow (http://localhost:8080)
