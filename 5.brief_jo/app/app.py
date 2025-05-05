@@ -23,3 +23,13 @@ if st.button("Exécuter la requête"):
         st.dataframe(df)
     except Exception as e:
         st.error(f"❌ Erreur : {e}")
+        
+        
+    # Bouton de téléchargement
+    csv = df.to_csv(index=False).encode('utf-8')
+    st.download_button(
+        label="⬇️ Télécharger les résultats au format CSV",
+        data=csv,
+        file_name="resultats_requete.csv",
+        mime="text/csv"
+        )
