@@ -1,0 +1,12 @@
+[2025-04-08T09:15:09.149+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: file_watcher_dag.trigger_main_dag scheduled__2025-04-08T09:14:35.958650+00:00 [queued]>
+[2025-04-08T09:15:09.160+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: file_watcher_dag.trigger_main_dag scheduled__2025-04-08T09:14:35.958650+00:00 [queued]>
+[2025-04-08T09:15:09.160+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-04-08T09:15:09.174+0000] {taskinstance.py:1327} INFO - Executing <Task(TriggerDagRunOperator): trigger_main_dag> on 2025-04-08 09:14:35.958650+00:00
+[2025-04-08T09:15:09.182+0000] {standard_task_runner.py:57} INFO - Started process 298 to run task
+[2025-04-08T09:15:09.185+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'file_watcher_dag', 'trigger_main_dag', 'scheduled__2025-04-08T09:14:35.958650+00:00', '--job-id', '636', '--raw', '--subdir', 'DAGS_FOLDER/watch.py', '--cfg-path', '/tmp/tmprfpqocvs']
+[2025-04-08T09:15:09.187+0000] {standard_task_runner.py:85} INFO - Job 636: Subtask trigger_main_dag
+[2025-04-08T09:15:09.231+0000] {task_command.py:410} INFO - Running <TaskInstance: file_watcher_dag.trigger_main_dag scheduled__2025-04-08T09:14:35.958650+00:00 [running]> on host 72a7cd2d8042
+[2025-04-08T09:15:09.316+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='file_watcher_dag' AIRFLOW_CTX_TASK_ID='trigger_main_dag' AIRFLOW_CTX_EXECUTION_DATE='2025-04-08T09:14:35.958650+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-08T09:14:35.958650+00:00'
+[2025-04-08T09:15:09.393+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=file_watcher_dag, task_id=trigger_main_dag, execution_date=20250408T091435, start_date=20250408T091509, end_date=20250408T091509
+[2025-04-08T09:15:09.437+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-04-08T09:15:09.453+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

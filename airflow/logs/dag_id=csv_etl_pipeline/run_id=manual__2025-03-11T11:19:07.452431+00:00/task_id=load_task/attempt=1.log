@@ -1,0 +1,10 @@
+[2025-03-11T11:19:13.971+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.load_task manual__2025-03-11T11:19:07.452431+00:00 [queued]>
+[2025-03-11T11:19:13.982+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.load_task manual__2025-03-11T11:19:07.452431+00:00 [queued]>
+[2025-03-11T11:19:13.983+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T11:19:14.000+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_task> on 2025-03-11 11:19:07.452431+00:00
+[2025-03-11T11:19:14.007+0000] {standard_task_runner.py:57} INFO - Started process 764 to run task
+[2025-03-11T11:19:14.011+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'load_task', 'manual__2025-03-11T11:19:07.452431+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpjfm8z_k1']
+[2025-03-11T11:19:14.012+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask load_task
+[2025-03-11T11:19:14.065+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.load_task manual__2025-03-11T11:19:07.452431+00:00 [running]> on host 11da0919092a
+[2025-03-11T11:19:14.161+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T11:19:07.452431+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T11:19:07.452431+00:00'
+[2025-03-11T11:19:14.416+0000] {logging_mixin.py:149} INFO - ✅ Données chargées dans output_data.csv

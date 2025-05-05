@@ -1,0 +1,16 @@
+[2025-03-13T09:59:08.586+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: file_watcher_dag.wait_for_new_file scheduled__2025-03-13T09:58:37.660742+00:00 [queued]>
+[2025-03-13T09:59:08.594+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: file_watcher_dag.wait_for_new_file scheduled__2025-03-13T09:58:37.660742+00:00 [queued]>
+[2025-03-13T09:59:08.595+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-13T09:59:08.607+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_new_file> on 2025-03-13 09:58:37.660742+00:00
+[2025-03-13T09:59:08.612+0000] {standard_task_runner.py:57} INFO - Started process 769 to run task
+[2025-03-13T09:59:08.615+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'file_watcher_dag', 'wait_for_new_file', 'scheduled__2025-03-13T09:58:37.660742+00:00', '--job-id', '499', '--raw', '--subdir', 'DAGS_FOLDER/watch.py', '--cfg-path', '/tmp/tmpwy39rbqu']
+[2025-03-13T09:59:08.618+0000] {standard_task_runner.py:85} INFO - Job 499: Subtask wait_for_new_file
+[2025-03-13T09:59:08.666+0000] {task_command.py:410} INFO - Running <TaskInstance: file_watcher_dag.wait_for_new_file scheduled__2025-03-13T09:58:37.660742+00:00 [running]> on host 72a7cd2d8042
+[2025-03-13T09:59:08.745+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='file_watcher_dag' AIRFLOW_CTX_TASK_ID='wait_for_new_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-13T09:58:37.660742+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-13T09:58:37.660742+00:00'
+[2025-03-13T09:59:08.754+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-13T09:59:08.754+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv
+[2025-03-13T09:59:08.755+0000] {filesystem.py:69} INFO - Found File /opt/***/dags/data/Vente.csv last modified: 20241115130222
+[2025-03-13T09:59:08.755+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2025-03-13T09:59:08.763+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=file_watcher_dag, task_id=wait_for_new_file, execution_date=20250313T095837, start_date=20250313T095908, end_date=20250313T095908
+[2025-03-13T09:59:08.787+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-13T09:59:08.812+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

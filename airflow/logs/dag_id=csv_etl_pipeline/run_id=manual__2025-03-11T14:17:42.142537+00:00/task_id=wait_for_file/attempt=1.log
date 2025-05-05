@@ -1,0 +1,254 @@
+[2025-03-11T14:17:44.666+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:17:44.682+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:17:44.682+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:17:44.705+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:17:44.714+0000] {standard_task_runner.py:57} INFO - Started process 1260 to run task
+[2025-03-11T14:17:44.721+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpwioi053e']
+[2025-03-11T14:17:44.722+0000] {standard_task_runner.py:85} INFO - Job 89: Subtask wait_for_file
+[2025-03-11T14:17:44.819+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:17:44.999+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:17:45.037+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:17:45.038+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:17:45.072+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:17:45.093+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:17:45.139+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:17:56.418+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:17:56.427+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:17:56.428+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:17:56.442+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:17:56.449+0000] {standard_task_runner.py:57} INFO - Started process 1263 to run task
+[2025-03-11T14:17:56.452+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpjlcn_y9e']
+[2025-03-11T14:17:56.453+0000] {standard_task_runner.py:85} INFO - Job 90: Subtask wait_for_file
+[2025-03-11T14:17:56.500+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:17:56.586+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:17:56.605+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:17:56.606+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:17:56.626+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:17:56.665+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:17:56.692+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:18:08.485+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:08.497+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:08.498+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:18:08.515+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:18:08.524+0000] {standard_task_runner.py:57} INFO - Started process 1275 to run task
+[2025-03-11T14:18:08.529+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp_5qtsrxr']
+[2025-03-11T14:18:08.530+0000] {standard_task_runner.py:85} INFO - Job 91: Subtask wait_for_file
+[2025-03-11T14:18:08.598+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:18:08.714+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:18:08.740+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:18:08.740+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:18:08.765+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:18:08.781+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:18:08.819+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:18:20.425+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:20.437+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:20.438+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:18:20.456+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:18:20.463+0000] {standard_task_runner.py:57} INFO - Started process 1278 to run task
+[2025-03-11T14:18:20.468+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpzkx1lbt9']
+[2025-03-11T14:18:20.468+0000] {standard_task_runner.py:85} INFO - Job 92: Subtask wait_for_file
+[2025-03-11T14:18:20.526+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:18:20.646+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:18:20.685+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:18:20.685+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:18:20.734+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:18:20.760+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:18:20.816+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:18:32.006+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:32.035+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:32.036+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:18:32.069+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:18:32.081+0000] {standard_task_runner.py:57} INFO - Started process 1281 to run task
+[2025-03-11T14:18:32.088+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpy42u07ev']
+[2025-03-11T14:18:32.089+0000] {standard_task_runner.py:85} INFO - Job 93: Subtask wait_for_file
+[2025-03-11T14:18:32.188+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:18:32.395+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:18:32.435+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:18:32.436+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:18:32.473+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:18:32.500+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:18:32.540+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:18:44.214+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:44.227+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:44.228+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:18:44.246+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:18:44.254+0000] {standard_task_runner.py:57} INFO - Started process 1293 to run task
+[2025-03-11T14:18:44.259+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmptan42fwg']
+[2025-03-11T14:18:44.260+0000] {standard_task_runner.py:85} INFO - Job 94: Subtask wait_for_file
+[2025-03-11T14:18:44.328+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:18:44.451+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:18:44.479+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:18:44.480+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:18:44.506+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:18:44.551+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:18:44.593+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:18:55.710+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:55.724+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:18:55.724+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:18:55.743+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:18:55.751+0000] {standard_task_runner.py:57} INFO - Started process 1296 to run task
+[2025-03-11T14:18:55.756+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpunjjfu6m']
+[2025-03-11T14:18:55.756+0000] {standard_task_runner.py:85} INFO - Job 95: Subtask wait_for_file
+[2025-03-11T14:18:55.817+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:18:55.941+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:18:55.970+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:18:55.971+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:18:56.002+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:18:56.048+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:18:56.089+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:19:07.717+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:07.725+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:07.725+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:19:07.736+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:19:07.742+0000] {standard_task_runner.py:57} INFO - Started process 1299 to run task
+[2025-03-11T14:19:07.745+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpfappgvon']
+[2025-03-11T14:19:07.745+0000] {standard_task_runner.py:85} INFO - Job 96: Subtask wait_for_file
+[2025-03-11T14:19:07.785+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:19:07.856+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:19:07.873+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:19:07.874+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:19:07.890+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:19:07.917+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:19:07.941+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:19:19.410+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:19.426+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:19.427+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:19:19.445+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:19:19.454+0000] {standard_task_runner.py:57} INFO - Started process 1311 to run task
+[2025-03-11T14:19:19.460+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpmdcyjlni']
+[2025-03-11T14:19:19.460+0000] {standard_task_runner.py:85} INFO - Job 97: Subtask wait_for_file
+[2025-03-11T14:19:19.525+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:19:19.656+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:19:19.687+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:19:19.688+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:19:19.715+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:19:19.751+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:19:19.794+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:19:31.808+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:31.821+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:31.821+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:19:31.841+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:19:31.849+0000] {standard_task_runner.py:57} INFO - Started process 1314 to run task
+[2025-03-11T14:19:31.855+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp1ffke53y']
+[2025-03-11T14:19:31.856+0000] {standard_task_runner.py:85} INFO - Job 98: Subtask wait_for_file
+[2025-03-11T14:19:31.925+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:19:32.033+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:19:32.061+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:19:32.061+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:19:32.084+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:19:32.107+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:19:32.141+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:19:43.537+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:43.552+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:43.552+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:19:43.570+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:19:43.578+0000] {standard_task_runner.py:57} INFO - Started process 1317 to run task
+[2025-03-11T14:19:43.583+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpdrpyckmp']
+[2025-03-11T14:19:43.584+0000] {standard_task_runner.py:85} INFO - Job 99: Subtask wait_for_file
+[2025-03-11T14:19:43.648+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:19:43.766+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:19:43.792+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:19:43.793+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:19:43.819+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:19:43.834+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:19:43.874+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:19:54.957+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:54.968+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:19:54.969+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:19:54.984+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:19:54.991+0000] {standard_task_runner.py:57} INFO - Started process 1329 to run task
+[2025-03-11T14:19:54.996+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '100', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp9cwk_tjj']
+[2025-03-11T14:19:54.996+0000] {standard_task_runner.py:85} INFO - Job 100: Subtask wait_for_file
+[2025-03-11T14:19:55.047+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:19:55.132+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:19:55.152+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:19:55.153+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:19:55.174+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:19:55.207+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:19:55.236+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:20:06.455+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:06.464+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:06.464+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:20:06.477+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:20:06.483+0000] {standard_task_runner.py:57} INFO - Started process 1332 to run task
+[2025-03-11T14:20:06.487+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp50q675si']
+[2025-03-11T14:20:06.487+0000] {standard_task_runner.py:85} INFO - Job 101: Subtask wait_for_file
+[2025-03-11T14:20:06.532+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:20:06.620+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:20:06.641+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:20:06.642+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:20:06.662+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:20:06.699+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:20:06.728+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:20:18.689+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:18.698+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:18.698+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:20:18.711+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:20:18.718+0000] {standard_task_runner.py:57} INFO - Started process 1344 to run task
+[2025-03-11T14:20:18.721+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpa2gu91hg']
+[2025-03-11T14:20:18.722+0000] {standard_task_runner.py:85} INFO - Job 102: Subtask wait_for_file
+[2025-03-11T14:20:18.766+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:20:18.861+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:20:18.881+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:20:18.881+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:20:18.899+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:20:18.932+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:20:18.961+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:20:30.082+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:30.090+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:30.090+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:20:30.101+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:20:30.107+0000] {standard_task_runner.py:57} INFO - Started process 1347 to run task
+[2025-03-11T14:20:30.110+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpj7aewo18']
+[2025-03-11T14:20:30.111+0000] {standard_task_runner.py:85} INFO - Job 103: Subtask wait_for_file
+[2025-03-11T14:20:30.152+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:20:30.224+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:20:30.242+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:20:30.243+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:20:30.259+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:20:30.281+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:20:30.324+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:20:42.146+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:42.162+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:42.162+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:20:42.189+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:20:42.199+0000] {standard_task_runner.py:57} INFO - Started process 1350 to run task
+[2025-03-11T14:20:42.205+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp_t8i27yz']
+[2025-03-11T14:20:42.206+0000] {standard_task_runner.py:85} INFO - Job 104: Subtask wait_for_file
+[2025-03-11T14:20:42.305+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:20:42.475+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:20:42.507+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:20:42.508+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:20:42.540+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:20:42.577+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:20:42.631+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:20:53.869+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:53.879+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:20:53.880+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:20:53.894+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:20:53.901+0000] {standard_task_runner.py:57} INFO - Started process 1362 to run task
+[2025-03-11T14:20:53.905+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpa9z0l7fg']
+[2025-03-11T14:20:53.906+0000] {standard_task_runner.py:85} INFO - Job 105: Subtask wait_for_file
+[2025-03-11T14:20:53.956+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:20:54.055+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:20:54.081+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:20:54.081+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv/path/to/directory/filename.csv
+[2025-03-11T14:20:54.107+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-03-11T14:20:54.117+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:20:54.159+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T14:21:00.621+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:21:00.635+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [queued]>
+[2025-03-11T14:21:00.635+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:21:00.654+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:17:42.142537+00:00
+[2025-03-11T14:21:00.662+0000] {standard_task_runner.py:57} INFO - Started process 1365 to run task
+[2025-03-11T14:21:00.667+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:17:42.142537+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmp78pnumn2']
+[2025-03-11T14:21:00.668+0000] {standard_task_runner.py:85} INFO - Job 106: Subtask wait_for_file
+[2025-03-11T14:21:00.730+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:17:42.142537+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:21:00.829+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:17:42.142537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:17:42.142537+00:00'
+[2025-03-11T14:21:00.841+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:21:00.842+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv
+[2025-03-11T14:21:00.842+0000] {filesystem.py:69} INFO - Found File /opt/***/dags/data/Vente.csv last modified: 20241115130222
+[2025-03-11T14:21:00.843+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2025-03-11T14:21:00.854+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=csv_etl_pipeline, task_id=wait_for_file, execution_date=20250311T141742, start_date=20250311T142100, end_date=20250311T142100
+[2025-03-11T14:21:00.879+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:21:00.927+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

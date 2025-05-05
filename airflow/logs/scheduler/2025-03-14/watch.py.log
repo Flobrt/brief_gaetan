@@ -1,0 +1,7 @@
+[2025-03-14T09:06:14.998+0000] {processor.py:157} INFO - Started process (PID=37) to work on /opt/airflow/dags/watch.py
+[2025-03-14T09:06:14.999+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/watch.py for tasks to queue
+[2025-03-14T09:06:15.000+0000] {logging_mixin.py:149} INFO - [2025-03-14T09:06:15.000+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/watch.py
+[2025-03-14T09:06:15.010+0000] {processor.py:836} INFO - DAG(s) dict_keys(['file_watcher_dag']) retrieved from /opt/airflow/dags/watch.py
+[2025-03-14T09:06:15.071+0000] {logging_mixin.py:149} INFO - [2025-03-14T09:06:15.071+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-03-14T09:06:15.114+0000] {logging_mixin.py:149} INFO - [2025-03-14T09:06:15.114+0000] {dag.py:3490} INFO - Setting next_dagrun for file_watcher_dag to 2025-03-14T09:05:45.114049+00:00, run_after=2025-03-14T09:06:15.114049+00:00
+[2025-03-14T09:06:15.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/watch.py took 0.149 seconds

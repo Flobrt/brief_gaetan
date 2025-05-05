@@ -1,0 +1,16 @@
+[2025-03-11T14:21:37.555+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:21:35.355957+00:00 [queued]>
+[2025-03-11T14:21:37.568+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:21:35.355957+00:00 [queued]>
+[2025-03-11T14:21:37.568+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-03-11T14:21:37.590+0000] {taskinstance.py:1327} INFO - Executing <Task(FileSensor): wait_for_file> on 2025-03-11 14:21:35.355957+00:00
+[2025-03-11T14:21:37.599+0000] {standard_task_runner.py:57} INFO - Started process 1386 to run task
+[2025-03-11T14:21:37.604+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'wait_for_file', 'manual__2025-03-11T14:21:35.355957+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpu8an1cta']
+[2025-03-11T14:21:37.605+0000] {standard_task_runner.py:85} INFO - Job 110: Subtask wait_for_file
+[2025-03-11T14:21:37.675+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.wait_for_file manual__2025-03-11T14:21:35.355957+00:00 [running]> on host 72a7cd2d8042
+[2025-03-11T14:21:37.804+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T14:21:35.355957+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T14:21:35.355957+00:00'
+[2025-03-11T14:21:37.821+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-03-11T14:21:37.822+0000] {filesystem.py:64} INFO - Poking for file /opt/***/dags/data/Vente.csv
+[2025-03-11T14:21:37.822+0000] {filesystem.py:69} INFO - Found File /opt/***/dags/data/Vente.csv last modified: 20241115130222
+[2025-03-11T14:21:37.823+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2025-03-11T14:21:37.836+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=csv_etl_pipeline, task_id=wait_for_file, execution_date=20250311T142135, start_date=20250311T142137, end_date=20250311T142137
+[2025-03-11T14:21:37.896+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-03-11T14:21:37.948+0000] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

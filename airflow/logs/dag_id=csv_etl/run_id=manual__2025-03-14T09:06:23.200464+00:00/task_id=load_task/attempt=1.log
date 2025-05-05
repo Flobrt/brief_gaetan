@@ -1,0 +1,13 @@
+[2025-04-08T09:12:05.453+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl.load_task manual__2025-03-14T09:06:23.200464+00:00 [queued]>
+[2025-04-08T09:12:05.466+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl.load_task manual__2025-03-14T09:06:23.200464+00:00 [queued]>
+[2025-04-08T09:12:05.466+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-04-08T09:12:05.485+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_task> on 2025-03-14 09:06:23.200464+00:00
+[2025-04-08T09:12:05.492+0000] {standard_task_runner.py:57} INFO - Started process 115 to run task
+[2025-04-08T09:12:05.496+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl', 'load_task', 'manual__2025-03-14T09:06:23.200464+00:00', '--job-id', '590', '--raw', '--subdir', 'DAGS_FOLDER/etl2.py', '--cfg-path', '/tmp/tmprow7at38']
+[2025-04-08T09:12:05.497+0000] {standard_task_runner.py:85} INFO - Job 590: Subtask load_task
+[2025-04-08T09:12:05.554+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl.load_task manual__2025-03-14T09:06:23.200464+00:00 [running]> on host 72a7cd2d8042
+[2025-04-08T09:12:05.669+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-14T09:06:23.200464+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-14T09:06:23.200464+00:00'
+[2025-04-08T09:12:23.642+0000] {python.py:183} INFO - Done. Returned value was: None
+[2025-04-08T09:12:23.656+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=csv_etl, task_id=load_task, execution_date=20250314T090623, start_date=20250408T091205, end_date=20250408T091223
+[2025-04-08T09:12:23.709+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-04-08T09:12:23.728+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
