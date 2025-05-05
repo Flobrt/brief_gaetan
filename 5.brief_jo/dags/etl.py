@@ -1,12 +1,10 @@
-from sqlalchemy import create_engine
-import pandas as pd
 import os
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+import pandas as pd
 from datetime import datetime
-import psycopg2
-from airflow.sensors.python import PythonSensor
-from airflow.sensors.filesystem import FileSensor
+from airflow import DAG
+from sqlalchemy import create_engine
+from airflow.operators.python_operator import PythonOperator
+from airflow.exceptions import AirflowSkipException
 
 
 # Définition des chemins des fichiers
@@ -47,16 +45,21 @@ def load_data(**kwargs):
 dag = DAG(
     'csv_etl_pipeline',
     description         = 'Pipeline ETL pour extraire et charger des données CSV dans une base de données PostgreSQL',
-    schedule_interval   = '*/5 * * * *',
+    schedule_interval   = '@yearly',
     start_date          = datetime(2025, 5, 5),
     catchup             = False
 )
 
-extract_task = PythonOperator(task_id='extract_task', python_callable=extract_data, dag=dag)
-# transform_task = PythonOperator(task_id='transform_task', python_callable=transform_data, provide_context=True, dag=dag)
-load_task = PythonOperator(task_id='load_task', python_callable=load_data, provide_context=True, dag=dag)
+def skip_if_not_even_year(**kwargs):
+    year = kwargs['execution_date'].year
+    if year % 2 == 0:
+        raise AirflowSkipException(f"Année {year} paire.")
+    print(f"Année impaire détectée : {year}.")
+
+check_year      = PythonOperator(task_id='check_even_year', python_callable=skip_if_not_even_year, provide_context=True, dag=dag)
+extract_task    = PythonOperator(task_id='extract_task', python_callable=extract_data, dag=dag)
+load_task       = PythonOperator(task_id='load_task', python_callable=load_data, provide_context=True, dag=dag)
 
 # Définition de l'ordre des tâches
-# wait_for_file >> extract_task >> transform_task >> load_task
-extract_task >> load_task
+check_year >> extract_task >> load_task
 
