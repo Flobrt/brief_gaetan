@@ -11,6 +11,7 @@ from airflow.sensors.filesystem import FileSensor
 
 # Définition des chemins des fichiers
 INPUT_CSV = "/opt/airflow/dags/data/fact_resultats_epreuves.csv"
+OUTPUT_CSV = "output_data.csv"
 
 def check_new_file():
     folder = "/opt/airflow/dags/data/"
@@ -19,7 +20,7 @@ def check_new_file():
 # Fonction d'extraction
 def extract_data():
     df = pd.read_csv(INPUT_CSV, sep=',')
-    print(f"✅ Données extraites : {df.shape[0]} lignes")
+    print(f"Données extraites : {df.shape[0]} lignes")
     return df.to_json()  
 
 def load_data(**kwargs):
@@ -37,16 +38,16 @@ def load_data(**kwargs):
         df_new = df[~df['id_resultat'].isin(existing_ids['id_resultat'])]
         
         if df_new.empty:
-            print("✅ Aucune nouvelle ligne à insérer.")
+            print("Aucune nouvelle ligne à insérer.")
         else:
             df_new.to_sql('table_jo', conn, if_exists='append', index=False)
-            print(f"✅ {len(df_new)} nouvelles lignes insérées.")
+            print(f"{len(df_new)} nouvelles lignes insérées.")
 
 # Définition du DAG
 dag = DAG(
     'csv_etl_pipeline',
     description         = 'Pipeline ETL pour extraire et charger des données CSV dans une base de données PostgreSQL',
-    schedule_interval   = '0 * * * *',
+    schedule_interval   = '*/5 * * * *',
     start_date          = datetime(2025, 5, 5),
     catchup             = False
 )
@@ -55,6 +56,7 @@ extract_task = PythonOperator(task_id='extract_task', python_callable=extract_da
 # transform_task = PythonOperator(task_id='transform_task', python_callable=transform_data, provide_context=True, dag=dag)
 load_task = PythonOperator(task_id='load_task', python_callable=load_data, provide_context=True, dag=dag)
 
-
+# Définition de l'ordre des tâches
+# wait_for_file >> extract_task >> transform_task >> load_task
 extract_task >> load_task
 
