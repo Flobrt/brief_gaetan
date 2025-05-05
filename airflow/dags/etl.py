@@ -100,7 +100,7 @@ wait_for_file = FileSensor(
     task_id="wait_for_file",
     filepath=os.path.join(INPUT_CSV),
     fs_conn_id="fs_default",  # Connexion Airflow pour le système de fichiers
-    poke_interval=10,  # Vérifie toutes les 10 sec
+    poke_interval=300,  # Vérifie toutes les 10 sec
     timeout=0,  # Attente infinie (0 = jamais timeout)
     mode="reschedule",  # Ne bloque pas un worker inutilement
     dag=dag
