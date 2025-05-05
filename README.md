@@ -30,7 +30,7 @@ Ce projet est un pipeline complet de traitement des données :
 1. Cloner le repo
 
 ```bash
-git clone <lien-du-repo>
+git clone https://github.com/Flobrt/brief_gaetan.git
 cd project/
 ```
 
