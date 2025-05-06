@@ -3,13 +3,14 @@ import pandas as pd
 from datetime import datetime
 from airflow import DAG
 from sqlalchemy import create_engine
-from airflow.operators.python_operator import PythonOperator
 from airflow.exceptions import AirflowSkipException
+from airflow.operators.python_operator import PythonOperator
 
 
 # Définition des chemins des fichiers
 INPUT_CSV = "/opt/airflow/dags/data/fact_resultats_epreuves.csv"
 
+# Fonction de vérification de la présence d'un fichier
 def check_new_file():
     folder = "/opt/airflow/dags/data/"
     return any(f.endswith(".csv") for f in os.listdir(folder))
@@ -44,7 +45,7 @@ def load_data(**kwargs):
 dag = DAG(
     'csv_etl_pipeline',
     description         = 'Pipeline ETL pour extraire et charger des données CSV dans une base de données PostgreSQL',
-    schedule_interval   = '@yearly',
+    schedule_interval   = '0 23 * 2,8 *',
     start_date          = datetime(2025, 5, 5),
     catchup             = False
 )
