@@ -9,7 +9,6 @@ from airflow.exceptions import AirflowSkipException
 
 # Définition des chemins des fichiers
 INPUT_CSV = "/opt/airflow/dags/data/fact_resultats_epreuves.csv"
-OUTPUT_CSV = "output_data.csv"
 
 def check_new_file():
     folder = "/opt/airflow/dags/data/"
