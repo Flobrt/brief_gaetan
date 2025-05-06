@@ -21,6 +21,7 @@ def extract_data():
     print(f"Données extraites : {df.shape[0]} lignes")
     return df.to_json()  
 
+# Fonction de chargement des données en base
 def load_data(**kwargs):
     ti = kwargs['ti']
     data = ti.xcom_pull(task_ids='extract_task')
@@ -50,11 +51,12 @@ dag = DAG(
     catchup             = False
 )
 
+# Skip si année impaire 
 def skip_if_not_even_year(**kwargs):
     year = kwargs['execution_date'].year
-    if year % 2 == 0:
-        raise AirflowSkipException(f"Année {year} paire.")
-    print(f"Année impaire détectée : {year}.")
+    if year % 2 != 0:
+        raise AirflowSkipException(f"Année {year} impaire.")
+    print(f"Année paire détectée : {year}.")
 
 check_year      = PythonOperator(task_id='check_even_year', python_callable=skip_if_not_even_year, provide_context=True, dag=dag)
 extract_task    = PythonOperator(task_id='extract_task', python_callable=extract_data, dag=dag)
