@@ -1,0 +1,64 @@
+[2025-05-06T14:09:52.463+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_etl_pipeline.load_task scheduled__2025-05-06T14:08:00+00:00 [queued]>
+[2025-05-06T14:09:52.474+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_etl_pipeline.load_task scheduled__2025-05-06T14:08:00+00:00 [queued]>
+[2025-05-06T14:09:52.475+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-05-06T14:09:52.492+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_task> on 2025-05-06 14:08:00+00:00
+[2025-05-06T14:09:52.500+0000] {standard_task_runner.py:57} INFO - Started process 92 to run task
+[2025-05-06T14:09:52.504+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csv_etl_pipeline', 'load_task', 'scheduled__2025-05-06T14:08:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpk9yd8gkf']
+[2025-05-06T14:09:52.505+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask load_task
+[2025-05-06T14:09:52.566+0000] {task_command.py:410} INFO - Running <TaskInstance: csv_etl_pipeline.load_task scheduled__2025-05-06T14:08:00+00:00 [running]> on host 6750b33ae964
+[2025-05-06T14:09:52.658+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2025-05-06T14:08:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-06T14:08:00+00:00'
+[2025-05-06T14:09:53.539+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1906, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "table_jo" does not exist
+LINE 1: SELECT id_resultat FROM table_jo
+                                ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl.py", line 34, in load_data
+    existing_ids = pd.read_sql("SELECT id_resultat FROM table_jo", conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 634, in read_sql
+    chunksize=chunksize,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1579, in read_query
+    result = self.execute(*args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1424, in execute
+    return self.connectable.execution_options().execute(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1375, in execute
+    future=False,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1681, in _exec_driver_sql
+    distilled_parameters,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1949, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2130, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1906, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "table_jo" does not exist
+LINE 1: SELECT id_resultat FROM table_jo
+                                ^
+
+[SQL: SELECT id_resultat FROM table_jo]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2025-05-06T14:09:53.551+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=csv_etl_pipeline, task_id=load_task, execution_date=20250506T140800, start_date=20250506T140952, end_date=20250506T140953
+[2025-05-06T14:09:53.566+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 4 for task load_task ((psycopg2.errors.UndefinedTable) relation "table_jo" does not exist
+LINE 1: SELECT id_resultat FROM table_jo
+                                ^
+
+[SQL: SELECT id_resultat FROM table_jo]
+(Background on this error at: https://sqlalche.me/e/14/f405); 92)
+[2025-05-06T14:09:53.599+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-05-06T14:09:53.621+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

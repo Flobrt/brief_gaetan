@@ -31,10 +31,13 @@ def load_data(**kwargs):
 
     with engine.connect() as conn:
         # Charger les ID déjà en base
-        existing_ids = pd.read_sql("SELECT id_resultat FROM table_jo", conn)
-        
-        # Filtrer les nouvelles lignes
-        df_new = df[~df['id_resultat'].isin(existing_ids['id_resultat'])]
+        try:
+            existing_ids = pd.read_sql("SELECT id_resultat FROM table_jo", conn)
+            # Filtrer les nouvelles lignes
+            df_new = df[~df['id_resultat'].isin(existing_ids['id_resultat'])]
+            
+        except Exception as e:
+            df_new = df.copy()
         
         if df_new.empty:
             print("Aucune nouvelle ligne à insérer.")
@@ -45,23 +48,25 @@ def load_data(**kwargs):
 # Définition du DAG
 dag = DAG(
     'csv_etl_pipeline',
-    description         = 'Pipeline ETL pour extraire et charger des données CSV dans une base de données PostgreSQL',
-    schedule_interval   = '0 23 * 2,8 *',
-    start_date          = datetime(2025, 5, 5),
-    catchup             = False
+    description             = 'Pipeline ETL pour extraire et charger des données CSV dans une base de données PostgreSQL',
+    schedule_interval       = '* * * * *',
+    start_date              = datetime(2025, 5, 5),
+    catchup                 = False,
+    is_paused_upon_creation = False 
 )
 
-# Skip si année impaire 
-def skip_if_not_even_year(**kwargs):
-    year = kwargs['execution_date'].year
-    if year % 2 != 0:
-        raise AirflowSkipException(f"Année {year} impaire.")
-    print(f"Année paire détectée : {year}.")
+# # Skip si année impaire 
+# def skip_if_not_even_year(**kwargs):
+#     year = kwargs['execution_date'].year
+#     if year % 2 != 0:
+#         raise AirflowSkipException(f"Année {year} impaire.")
+#     print(f"Année paire détectée : {year}.")
 
-check_year      = PythonOperator(task_id='check_even_year', python_callable=skip_if_not_even_year, provide_context=True, dag=dag)
+# check_year      = PythonOperator(task_id='check_even_year', python_callable=skip_if_not_even_year, provide_context=True, dag=dag)
 extract_task    = PythonOperator(task_id='extract_task', python_callable=extract_data, dag=dag)
 load_task       = PythonOperator(task_id='load_task', python_callable=load_data, provide_context=True, dag=dag)
 
 # Définition de l'ordre des tâches
-check_year >> extract_task >> load_task
+# check_year >> extract_task >> load_task
+extract_task >> load_task
 
