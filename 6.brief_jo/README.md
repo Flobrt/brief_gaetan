@@ -50,7 +50,7 @@ Streamlit App : http://localhost:8501
 
 ### Ajout de données
 Le fichier dags/data/fact_resultats_epreuves.csv va être lu et les données vont être ajoutées en base si elles n'existent pas. 
-Il faut ajouter de nouvelles données au fichier dags/data/fact_resultats_epreuves.csv pour simuler l'entrer de nouvelles données (a prendre dans le fichier data/). 
+Il faut ajouter de nouvelles données au fichier dags/data/fact_resultats_epreuves.csv pour en simuler l'entrée (a prendre dans le fichier data/). 
 
 ### Lancer le DAG airflow :
 1. Accèder à l'ui Airflow (http://localhost:8080)
