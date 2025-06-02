@@ -50,6 +50,7 @@ dag = DAG(
     'csv_etl_pipeline',
     description             = 'Pipeline ETL pour extraire et charger des données CSV dans une base de données PostgreSQL',
     schedule_interval       = '* * * * *',
+    # schedule_interval       = '0 8 * 2,8 *',
     start_date              = datetime(2025, 5, 5),
     catchup                 = False,
     is_paused_upon_creation = False 
