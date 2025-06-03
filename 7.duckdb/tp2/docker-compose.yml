@@ -1,0 +1,6 @@
+services:
+  duckdb-tp2:
+    build: ./scripts
+    container_name: duckdb_container_tp2
+    volumes:
+      - ./data:/data
