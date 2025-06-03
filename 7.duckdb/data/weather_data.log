@@ -859,3 +859,19 @@
 2025-06-03 13:32:02,573 - INFO - DuckDB connection established and table created.
 2025-06-03 13:32:02,595 - INFO - DataFrame saved to DuckDB table successfully.
 2025-06-03 13:32:02,651 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:33:02,666 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:33:02,667 - INFO - JSON data retrieved successfully.
+2025-06-03 13:33:02,671 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:33:02,672 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:33:02,676 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:33:02,746 - INFO - DuckDB connection established and table created.
+2025-06-03 13:33:02,763 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:33:02,802 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:34:02,920 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:34:02,920 - INFO - JSON data retrieved successfully.
+2025-06-03 13:34:02,924 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:34:02,926 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:34:02,931 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:34:03,010 - INFO - DuckDB connection established and table created.
+2025-06-03 13:34:03,029 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:34:03,068 - INFO - DataFrame saved to Parquet file successfully.
