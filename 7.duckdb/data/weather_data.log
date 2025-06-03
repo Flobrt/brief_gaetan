@@ -875,3 +875,687 @@
 2025-06-03 13:34:03,010 - INFO - DuckDB connection established and table created.
 2025-06-03 13:34:03,029 - INFO - DataFrame saved to DuckDB table successfully.
 2025-06-03 13:34:03,068 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:42:02,534 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:42:02,535 - INFO - JSON data retrieved successfully.
+2025-06-03 13:42:02,541 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:42:02,544 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:42:02,550 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:42:02,665 - INFO - DuckDB connection established and table created.
+2025-06-03 13:42:02,690 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:42:02,752 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:43:02,380 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:43:02,380 - INFO - JSON data retrieved successfully.
+2025-06-03 13:43:02,381 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:43:02,382 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:43:02,383 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:43:02,402 - INFO - DuckDB connection established and table created.
+2025-06-03 13:43:02,415 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:43:02,427 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:44:02,028 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:44:02,029 - INFO - JSON data retrieved successfully.
+2025-06-03 13:44:02,030 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:44:02,030 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:44:02,031 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:44:02,046 - INFO - DuckDB connection established and table created.
+2025-06-03 13:44:02,059 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:44:02,070 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:45:01,611 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:45:01,611 - INFO - JSON data retrieved successfully.
+2025-06-03 13:45:01,612 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:45:01,613 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:45:01,613 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:45:01,626 - INFO - DuckDB connection established and table created.
+2025-06-03 13:45:01,637 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:45:01,647 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:46:02,172 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:46:02,172 - INFO - JSON data retrieved successfully.
+2025-06-03 13:46:02,173 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:46:02,174 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:46:02,175 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:46:02,187 - INFO - DuckDB connection established and table created.
+2025-06-03 13:46:02,196 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:46:02,206 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:47:01,758 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:47:01,758 - INFO - JSON data retrieved successfully.
+2025-06-03 13:47:01,759 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:47:01,760 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:47:01,760 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:47:01,773 - INFO - DuckDB connection established and table created.
+2025-06-03 13:47:01,784 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:47:01,795 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:48:02,328 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:48:02,328 - INFO - JSON data retrieved successfully.
+2025-06-03 13:48:02,330 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:48:02,330 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:48:02,331 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:48:02,344 - INFO - DuckDB connection established and table created.
+2025-06-03 13:48:02,355 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:48:02,365 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:49:01,906 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:49:01,906 - INFO - JSON data retrieved successfully.
+2025-06-03 13:49:01,907 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:49:01,908 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:49:01,909 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:49:01,922 - INFO - DuckDB connection established and table created.
+2025-06-03 13:49:01,933 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:49:01,944 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:50:01,502 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:50:01,502 - INFO - JSON data retrieved successfully.
+2025-06-03 13:50:01,503 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:50:01,504 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:50:01,504 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:50:01,518 - INFO - DuckDB connection established and table created.
+2025-06-03 13:50:01,529 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:50:01,540 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:51:02,090 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:51:02,090 - INFO - JSON data retrieved successfully.
+2025-06-03 13:51:02,091 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:51:02,092 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:51:02,093 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:51:02,106 - INFO - DuckDB connection established and table created.
+2025-06-03 13:51:02,117 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:51:02,128 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:52:01,689 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:52:01,689 - INFO - JSON data retrieved successfully.
+2025-06-03 13:52:01,691 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:52:01,691 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:52:01,692 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:52:01,706 - INFO - DuckDB connection established and table created.
+2025-06-03 13:52:01,717 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:52:01,728 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:53:02,327 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:53:02,327 - INFO - JSON data retrieved successfully.
+2025-06-03 13:53:02,328 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:53:02,329 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:53:02,330 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:53:02,343 - INFO - DuckDB connection established and table created.
+2025-06-03 13:53:02,352 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 13:54:01,892 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:54:01,892 - INFO - JSON data retrieved successfully.
+2025-06-03 13:54:01,893 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:54:01,894 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:54:01,894 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:54:01,908 - INFO - DuckDB connection established and table created.
+2025-06-03 13:54:01,910 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 13:55:02,431 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:55:02,431 - INFO - JSON data retrieved successfully.
+2025-06-03 13:55:02,432 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:55:02,433 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:55:02,433 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:55:02,446 - INFO - DuckDB connection established and table created.
+2025-06-03 13:55:02,448 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 13:56:02,009 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:56:02,009 - INFO - JSON data retrieved successfully.
+2025-06-03 13:56:02,010 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:56:02,011 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:56:02,012 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:56:02,026 - INFO - DuckDB connection established and table created.
+2025-06-03 13:56:02,028 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 13:57:01,539 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:57:01,539 - INFO - JSON data retrieved successfully.
+2025-06-03 13:57:01,540 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:57:01,541 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:57:01,541 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:57:01,554 - INFO - DuckDB connection established and table created.
+2025-06-03 13:57:01,556 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 13:58:02,085 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:58:02,085 - INFO - JSON data retrieved successfully.
+2025-06-03 13:58:02,086 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:58:02,087 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:58:02,087 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:58:02,100 - INFO - DuckDB connection established and table created.
+2025-06-03 13:58:02,111 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 13:58:02,122 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 13:59:01,673 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 13:59:01,673 - INFO - JSON data retrieved successfully.
+2025-06-03 13:59:01,674 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 13:59:01,675 - INFO - Null values dropped from DataFrame.
+2025-06-03 13:59:01,675 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 13:59:01,689 - INFO - DuckDB connection established and table created.
+2025-06-03 13:59:01,690 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:00:02,203 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:00:02,204 - INFO - JSON data retrieved successfully.
+2025-06-03 14:00:02,205 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:00:02,206 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:00:02,206 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:00:02,220 - INFO - DuckDB connection established and table created.
+2025-06-03 14:00:02,221 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:01:02,240 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:01:02,241 - INFO - JSON data retrieved successfully.
+2025-06-03 14:01:02,246 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:01:02,248 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:01:02,252 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:01:02,328 - INFO - DuckDB connection established and table created.
+2025-06-03 14:01:02,336 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:02:02,306 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:02:02,307 - INFO - JSON data retrieved successfully.
+2025-06-03 14:02:02,311 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:02:02,313 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:02:02,317 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:02:02,386 - INFO - DuckDB connection established and table created.
+2025-06-03 14:02:02,395 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:03:02,323 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:03:02,325 - INFO - JSON data retrieved successfully.
+2025-06-03 14:03:02,329 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:03:02,331 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:03:02,336 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:03:02,407 - INFO - DuckDB connection established and table created.
+2025-06-03 14:03:02,416 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:04:02,318 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:04:02,319 - INFO - JSON data retrieved successfully.
+2025-06-03 14:04:02,323 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:04:02,324 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:04:02,328 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:04:02,396 - INFO - DuckDB connection established and table created.
+2025-06-03 14:04:02,405 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:05:02,458 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:05:02,459 - INFO - JSON data retrieved successfully.
+2025-06-03 14:05:02,464 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:05:02,466 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:05:02,470 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:05:02,545 - INFO - DuckDB connection established and table created.
+2025-06-03 14:05:02,566 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:05:02,613 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:06:02,395 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:06:02,396 - INFO - JSON data retrieved successfully.
+2025-06-03 14:06:02,397 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:06:02,397 - INFO - JSON data retrieved successfully.
+2025-06-03 14:06:02,401 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:06:02,401 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:06:02,402 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:06:02,402 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:06:02,406 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:06:02,406 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:06:02,457 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:06:02,479 - INFO - DuckDB connection established and table created.
+2025-06-03 14:06:02,496 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:06:02,533 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:07:02,448 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:07:02,449 - INFO - JSON data retrieved successfully.
+2025-06-03 14:07:02,450 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:07:02,451 - INFO - JSON data retrieved successfully.
+2025-06-03 14:07:02,453 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:07:02,453 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:07:02,455 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:07:02,455 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:07:02,459 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:07:02,459 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:07:02,511 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:07:02,531 - INFO - DuckDB connection established and table created.
+2025-06-03 14:07:02,548 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:07:02,590 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:08:02,507 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:08:02,508 - INFO - JSON data retrieved successfully.
+2025-06-03 14:08:02,509 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:08:02,509 - INFO - JSON data retrieved successfully.
+2025-06-03 14:08:02,512 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:08:02,512 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:08:02,514 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:08:02,514 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:08:02,518 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:08:02,518 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:08:02,566 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:08:02,587 - INFO - DuckDB connection established and table created.
+2025-06-03 14:08:02,606 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:08:02,640 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:09:02,552 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:09:02,552 - INFO - JSON data retrieved successfully.
+2025-06-03 14:09:02,555 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:09:02,555 - INFO - JSON data retrieved successfully.
+2025-06-03 14:09:02,556 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:09:02,556 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:09:02,558 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:09:02,558 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:09:02,562 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:09:02,562 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:09:02,612 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:09:02,632 - INFO - DuckDB connection established and table created.
+2025-06-03 14:09:02,655 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:09:02,689 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:10:02,581 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:10:02,582 - INFO - JSON data retrieved successfully.
+2025-06-03 14:10:02,586 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:10:02,588 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:10:02,589 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:10:02,589 - INFO - JSON data retrieved successfully.
+2025-06-03 14:10:02,590 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:10:02,590 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:10:02,592 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:10:02,592 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:10:02,642 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:10:02,661 - INFO - DuckDB connection established and table created.
+2025-06-03 14:10:02,678 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:10:02,713 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:11:02,512 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:11:02,513 - INFO - JSON data retrieved successfully.
+2025-06-03 14:11:02,515 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:11:02,516 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:11:02,517 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:11:02,543 - INFO - DuckDB connection established and table created.
+2025-06-03 14:11:02,566 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:11:02,575 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:11:02,575 - INFO - JSON data retrieved successfully.
+2025-06-03 14:11:02,577 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:11:02,578 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:11:02,579 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:11:02,585 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:11:02,587 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:12:02,200 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:12:02,200 - INFO - JSON data retrieved successfully.
+2025-06-03 14:12:02,201 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:12:02,202 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:12:02,202 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:12:02,202 - INFO - JSON data retrieved successfully.
+2025-06-03 14:12:02,203 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:12:02,204 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:12:02,204 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:12:02,205 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:12:02,209 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:12:02,218 - INFO - DuckDB connection established and table created.
+2025-06-03 14:12:02,230 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:12:02,244 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:13:01,803 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:13:01,803 - INFO - JSON data retrieved successfully.
+2025-06-03 14:13:01,804 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:13:01,805 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:13:01,805 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:13:01,817 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:13:01,817 - INFO - JSON data retrieved successfully.
+2025-06-03 14:13:01,818 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:13:01,819 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:13:01,819 - INFO - DuckDB connection established and table created.
+2025-06-03 14:13:01,820 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:13:01,824 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:13:01,831 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:13:01,843 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:14:02,401 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:14:02,401 - INFO - JSON data retrieved successfully.
+2025-06-03 14:14:02,402 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:14:02,403 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:14:02,403 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:14:02,417 - INFO - DuckDB connection established and table created.
+2025-06-03 14:14:02,428 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:14:02,436 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:14:02,436 - INFO - JSON data retrieved successfully.
+2025-06-03 14:14:02,437 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:14:02,438 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:14:02,439 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:14:02,440 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:14:02,444 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:15:01,999 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:15:01,999 - INFO - JSON data retrieved successfully.
+2025-06-03 14:15:02,000 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:15:02,001 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:15:02,001 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:15:02,009 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:15:02,009 - INFO - JSON data retrieved successfully.
+2025-06-03 14:15:02,010 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:15:02,011 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:15:02,012 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:15:02,015 - INFO - DuckDB connection established and table created.
+2025-06-03 14:15:02,016 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:15:02,027 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:15:02,039 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:16:01,594 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:16:01,595 - INFO - JSON data retrieved successfully.
+2025-06-03 14:16:01,596 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:16:01,597 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:16:01,597 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:16:01,610 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:16:01,610 - INFO - JSON data retrieved successfully.
+2025-06-03 14:16:01,611 - INFO - DuckDB connection established and table created.
+2025-06-03 14:16:01,612 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:16:01,612 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:16:01,613 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:16:01,617 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:16:01,623 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:16:01,635 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:17:02,207 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:17:02,207 - INFO - JSON data retrieved successfully.
+2025-06-03 14:17:02,208 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:17:02,209 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:17:02,210 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:17:02,219 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:17:02,220 - INFO - JSON data retrieved successfully.
+2025-06-03 14:17:02,221 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:17:02,221 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:17:02,222 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:17:02,224 - INFO - DuckDB connection established and table created.
+2025-06-03 14:17:02,227 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:17:02,235 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:17:02,247 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:18:01,816 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:18:01,817 - INFO - JSON data retrieved successfully.
+2025-06-03 14:18:01,818 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:18:01,818 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:18:01,819 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:18:01,822 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:18:01,822 - INFO - JSON data retrieved successfully.
+2025-06-03 14:18:01,823 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:18:01,824 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:18:01,824 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:18:01,829 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:18:01,833 - INFO - DuckDB connection established and table created.
+2025-06-03 14:18:01,835 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:19:02,391 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:19:02,391 - INFO - JSON data retrieved successfully.
+2025-06-03 14:19:02,393 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:19:02,393 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:19:02,394 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:19:02,408 - INFO - DuckDB connection established and table created.
+2025-06-03 14:19:02,409 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:19:02,415 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:19:02,416 - INFO - JSON data retrieved successfully.
+2025-06-03 14:19:02,417 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:19:02,418 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:19:02,418 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:19:02,423 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:20:01,993 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:20:01,993 - INFO - JSON data retrieved successfully.
+2025-06-03 14:20:01,994 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:20:01,995 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:20:01,996 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:20:01,998 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:20:01,998 - INFO - JSON data retrieved successfully.
+2025-06-03 14:20:01,999 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:20:02,000 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:20:02,000 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:20:02,005 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:20:02,010 - INFO - DuckDB connection established and table created.
+2025-06-03 14:20:02,012 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:21:01,607 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:21:01,607 - INFO - JSON data retrieved successfully.
+2025-06-03 14:21:01,608 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:21:01,609 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:21:01,609 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:21:01,616 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:21:01,617 - INFO - JSON data retrieved successfully.
+2025-06-03 14:21:01,618 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:21:01,618 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:21:01,619 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:21:01,623 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:21:01,624 - INFO - DuckDB connection established and table created.
+2025-06-03 14:21:01,625 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:22:02,188 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:22:02,188 - INFO - JSON data retrieved successfully.
+2025-06-03 14:22:02,190 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:22:02,190 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:22:02,191 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:22:02,191 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:22:02,191 - INFO - JSON data retrieved successfully.
+2025-06-03 14:22:02,192 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:22:02,193 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:22:02,194 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:22:02,198 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:22:02,206 - INFO - DuckDB connection established and table created.
+2025-06-03 14:22:02,207 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:23:01,792 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:23:01,792 - INFO - JSON data retrieved successfully.
+2025-06-03 14:23:01,793 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:23:01,794 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:23:01,794 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:23:01,794 - INFO - JSON data retrieved successfully.
+2025-06-03 14:23:01,795 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:23:01,795 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:23:01,796 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:23:01,796 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:23:01,800 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:23:01,809 - INFO - DuckDB connection established and table created.
+2025-06-03 14:23:01,823 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:23:01,835 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:24:02,387 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:24:02,387 - INFO - JSON data retrieved successfully.
+2025-06-03 14:24:02,388 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:24:02,389 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:24:02,389 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:24:02,403 - INFO - DuckDB connection established and table created.
+2025-06-03 14:24:02,414 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:24:02,425 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:24:02,431 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:24:02,431 - INFO - JSON data retrieved successfully.
+2025-06-03 14:24:02,432 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:24:02,433 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:24:02,434 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:24:02,438 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:25:01,984 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:25:01,984 - INFO - JSON data retrieved successfully.
+2025-06-03 14:25:01,986 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:25:01,986 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:25:01,987 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:25:01,988 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:25:01,988 - INFO - JSON data retrieved successfully.
+2025-06-03 14:25:01,989 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:25:01,989 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:25:01,990 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:25:01,994 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:25:02,002 - INFO - DuckDB connection established and table created.
+2025-06-03 14:25:02,017 - INFO - DataFrame saved to DuckDB table successfully.
+2025-06-03 14:25:02,029 - INFO - DataFrame saved to Parquet file successfully.
+2025-06-03 14:26:01,593 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:26:01,593 - INFO - JSON data retrieved successfully.
+2025-06-03 14:26:01,594 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:26:01,595 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:26:01,596 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:26:01,609 - INFO - DuckDB connection established and table created.
+2025-06-03 14:26:01,611 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:26:01,625 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:26:01,625 - INFO - JSON data retrieved successfully.
+2025-06-03 14:26:01,627 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:26:01,627 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:26:01,628 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:26:01,643 - INFO - DuckDB connection established and table created.
+2025-06-03 14:26:01,644 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:27:02,213 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:27:02,214 - INFO - JSON data retrieved successfully.
+2025-06-03 14:27:02,215 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:27:02,216 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:27:02,216 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:27:02,217 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:27:02,217 - INFO - JSON data retrieved successfully.
+2025-06-03 14:27:02,218 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:27:02,219 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:27:02,220 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:27:02,224 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:27:02,231 - INFO - DuckDB connection established and table created.
+2025-06-03 14:27:02,232 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:28:01,799 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:28:01,800 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:28:01,800 - INFO - JSON data retrieved successfully.
+2025-06-03 14:28:01,800 - INFO - JSON data retrieved successfully.
+2025-06-03 14:28:01,801 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:28:01,801 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:28:01,802 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:28:01,802 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:28:01,802 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:28:01,802 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:28:01,807 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:28:01,817 - INFO - DuckDB connection established and table created.
+2025-06-03 14:28:01,819 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:29:02,576 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:29:02,576 - INFO - JSON data retrieved successfully.
+2025-06-03 14:29:02,577 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:29:02,578 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:29:02,578 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:29:02,578 - INFO - JSON data retrieved successfully.
+2025-06-03 14:29:02,579 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:29:02,579 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:29:02,580 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:29:02,581 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:29:02,585 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:29:02,593 - INFO - DuckDB connection established and table created.
+2025-06-03 14:29:02,595 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:30:02,228 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:30:02,229 - INFO - JSON data retrieved successfully.
+2025-06-03 14:30:02,230 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:30:02,230 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:30:02,231 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:30:02,239 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:30:02,239 - INFO - JSON data retrieved successfully.
+2025-06-03 14:30:02,240 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:30:02,241 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:30:02,241 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:30:02,244 - INFO - DuckDB connection established and table created.
+2025-06-03 14:30:02,245 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:30:02,246 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:31:01,813 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:31:01,813 - INFO - JSON data retrieved successfully.
+2025-06-03 14:31:01,815 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:31:01,815 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:31:01,816 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:31:01,816 - INFO - JSON data retrieved successfully.
+2025-06-03 14:31:01,816 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:31:01,817 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:31:01,817 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:31:01,818 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:31:01,822 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:31:01,830 - INFO - DuckDB connection established and table created.
+2025-06-03 14:31:01,832 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:32:02,392 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:32:02,392 - INFO - JSON data retrieved successfully.
+2025-06-03 14:32:02,393 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:32:02,394 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:32:02,394 - INFO - JSON data retrieved successfully.
+2025-06-03 14:32:02,394 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:32:02,395 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:32:02,395 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:32:02,396 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:32:02,397 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:32:02,401 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:32:02,409 - INFO - DuckDB connection established and table created.
+2025-06-03 14:32:02,410 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:33:01,975 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:33:01,975 - INFO - JSON data retrieved successfully.
+2025-06-03 14:33:01,975 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:33:01,975 - INFO - JSON data retrieved successfully.
+2025-06-03 14:33:01,976 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:33:01,977 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:33:01,977 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:33:01,977 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:33:01,978 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:33:01,978 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:33:01,982 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:33:01,992 - INFO - DuckDB connection established and table created.
+2025-06-03 14:33:01,993 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:34:01,551 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:34:01,551 - INFO - JSON data retrieved successfully.
+2025-06-03 14:34:01,553 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:34:01,553 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:34:01,554 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:34:01,554 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:34:01,554 - INFO - JSON data retrieved successfully.
+2025-06-03 14:34:01,555 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:34:01,556 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:34:01,556 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:34:01,561 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:34:01,568 - INFO - DuckDB connection established and table created.
+2025-06-03 14:34:01,570 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:35:02,567 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:35:02,568 - INFO - JSON data retrieved successfully.
+2025-06-03 14:35:02,570 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:35:02,570 - INFO - JSON data retrieved successfully.
+2025-06-03 14:35:02,572 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:35:02,572 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:35:02,574 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:35:02,574 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:35:02,578 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:35:02,578 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:35:02,631 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:35:02,652 - INFO - DuckDB connection established and table created.
+2025-06-03 14:35:02,656 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:36:02,657 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:36:02,658 - INFO - JSON data retrieved successfully.
+2025-06-03 14:36:02,661 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:36:02,661 - INFO - JSON data retrieved successfully.
+2025-06-03 14:36:02,662 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:36:02,662 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:36:02,664 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:36:02,664 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:36:02,668 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:36:02,668 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:36:02,719 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:36:02,741 - INFO - DuckDB connection established and table created.
+2025-06-03 14:36:02,744 - ERROR - Failed to save DataFrame to DuckDB table: Binder Error: table weather_data has 23 columns but 24 values were supplied
+2025-06-03 14:37:02,299 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:37:02,299 - INFO - JSON data retrieved successfully.
+2025-06-03 14:37:02,300 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:37:02,301 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:37:02,302 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:37:02,304 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:37:02,304 - INFO - JSON data retrieved successfully.
+2025-06-03 14:37:02,305 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:37:02,306 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:37:02,307 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:37:02,307 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:37:02,311 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:38:01,920 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:38:01,920 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:38:01,921 - INFO - JSON data retrieved successfully.
+2025-06-03 14:38:01,921 - INFO - JSON data retrieved successfully.
+2025-06-03 14:38:01,922 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:38:01,922 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:38:01,922 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:38:01,922 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:38:01,923 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:38:01,923 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:38:01,928 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:38:01,928 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:39:02,553 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:39:02,553 - INFO - JSON data retrieved successfully.
+2025-06-03 14:39:02,554 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:39:02,555 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:39:02,555 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:39:02,556 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:39:02,556 - INFO - JSON data retrieved successfully.
+2025-06-03 14:39:02,557 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:39:02,558 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:39:02,559 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:39:02,560 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:39:02,563 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:40:02,145 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:40:02,145 - INFO - JSON data retrieved successfully.
+2025-06-03 14:40:02,146 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:40:02,147 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:40:02,148 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:40:02,148 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:40:02,149 - INFO - JSON data retrieved successfully.
+2025-06-03 14:40:02,150 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:40:02,150 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:40:02,151 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:40:02,153 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:40:02,156 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:41:02,152 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:41:02,153 - INFO - JSON data retrieved successfully.
+2025-06-03 14:41:02,153 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:41:02,153 - INFO - JSON data retrieved successfully.
+2025-06-03 14:41:02,157 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:41:02,157 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:41:02,158 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:41:02,158 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:41:02,162 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:41:02,162 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:41:02,215 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:41:02,215 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:42:02,880 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:42:02,881 - INFO - JSON data retrieved successfully.
+2025-06-03 14:42:02,884 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:42:02,884 - INFO - JSON data retrieved successfully.
+2025-06-03 14:42:02,887 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:42:02,887 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:42:02,889 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:42:02,890 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:42:02,895 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:42:02,895 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:42:02,964 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:42:02,964 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:43:01,570 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:43:01,570 - INFO - JSON data retrieved successfully.
+2025-06-03 14:43:01,571 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:43:01,572 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:43:01,572 - INFO - Request to http://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=24fb1fbeb97ffecbdf8a28facb1898f0&units=metric successful.
+2025-06-03 14:43:01,573 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:43:01,573 - INFO - JSON data retrieved successfully.
+2025-06-03 14:43:01,574 - INFO - JSON data converted to DataFrame successfully.
+2025-06-03 14:43:01,574 - INFO - Null values dropped from DataFrame.
+2025-06-03 14:43:01,575 - INFO - Unnecessary columns dropped from DataFrame.
+2025-06-03 14:43:01,577 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-06-03 14:43:01,579 - ERROR - Failed to connect to DuckDB or create table: IO Error: Could not set lock on file "/root/../data/weather_data.duckdb": Conflicting lock is held in PID 0. See also https://duckdb.org/docs/stable/connect/concurrency

@@ -6,7 +6,7 @@
      SELECT          id_pays,         COUNT(*) AS total_podiums     FROM read_csv_auto('data/fact_resultats_epreuves.csv')     GROUP BY id_pays     ORDER BY total_podiums DESC     LIMIT 10 
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.193s              ││
+││              Total Time: 0.257s              ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
