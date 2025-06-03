@@ -3,10 +3,10 @@
 ││    Query Profiling Information    ││
 │└───────────────────────────────────┘│
 └─────────────────────────────────────┘
-     SELECT          id_pays,         COUNT(*) AS total_podiums     FROM resultats     GROUP BY id_pays     ORDER BY total_podiums DESC     LIMIT 10 
+     SELECT          id_pays,         COUNT(*) AS total_podiums     FROM parquet_scan('../outputs/jeux_olympiques.parquet')     GROUP BY id_pays     ORDER BY total_podiums DESC     LIMIT 10 
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.0016s             ││
+││              Total Time: 0.0032s             ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
@@ -64,9 +64,11 @@
 ┌─────────────┴─────────────┐
 │         TABLE_SCAN        │
 │    ────────────────────   │
-│      Table: resultats     │
-│   Type: Sequential Scan   │
+│         Function:         │
+│        PARQUET_SCAN       │
+│                           │
 │    Projections: id_pays   │
+│    Total Files Read: 1    │
 │                           │
 │         35690 Rows        │
 │          (0.00s)          │

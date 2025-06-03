@@ -3,10 +3,10 @@
 ││    Query Profiling Information    ││
 │└───────────────────────────────────┘│
 └─────────────────────────────────────┘
-SELECT * FROM parquet_scan('../outputs/jeux_olympiques.parquet')
+SELECT * FROM read_csv_auto('data/fact_resultats_epreuves.csv')
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.0983s             ││
+││              Total Time: 0.689s              ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
@@ -16,7 +16,7 @@ SELECT * FROM parquet_scan('../outputs/jeux_olympiques.parquet')
 │         TABLE_SCAN        │
 │    ────────────────────   │
 │         Function:         │
-│        PARQUET_SCAN       │
+│       READ_CSV_AUTO       │
 │                           │
 │        Projections:       │
 │        id_resultat        │
@@ -53,5 +53,5 @@ SELECT * FROM parquet_scan('../outputs/jeux_olympiques.parquet')
 │    Total Files Read: 1    │
 │                           │
 │         35690 Rows        │
-│          (0.01s)          │
+│          (0.10s)          │
 └───────────────────────────┘

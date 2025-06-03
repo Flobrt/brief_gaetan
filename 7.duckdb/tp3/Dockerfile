@@ -18,6 +18,9 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+# Exposer le bon port
+EXPOSE 8080
+
 # CMD à adapter selon usage
-CMD ["python", "scripts.py"]
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.runOnSave=true"]
 # CMD ["tail", "-f", "/dev/null"]

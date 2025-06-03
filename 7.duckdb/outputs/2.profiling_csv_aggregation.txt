@@ -3,14 +3,44 @@
 ││    Query Profiling Information    ││
 │└───────────────────────────────────┘│
 └─────────────────────────────────────┘
-SELECT * FROM read_csv_auto('data/fact_resultats_epreuves.csv')
+     SELECT          id_pays,         COUNT(*) AS total_podiums     FROM read_csv_auto('data/fact_resultats_epreuves.csv')     GROUP BY id_pays     ORDER BY total_podiums DESC     LIMIT 10 
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.489s              ││
+││              Total Time: 0.193s              ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
 │           QUERY           │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│           TOP_N           │
+│    ────────────────────   │
+│          Top: 10          │
+│                           │
+│         Order By:         │
+│     count_star() DESC     │
+│                           │
+│          10 Rows          │
+│          (0.01s)          │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│       HASH_GROUP_BY       │
+│    ────────────────────   │
+│         Groups: #0        │
+│                           │
+│        Aggregates:        │
+│        count_star()       │
+│                           │
+│          212 Rows         │
+│          (0.01s)          │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         PROJECTION        │
+│    ────────────────────   │
+│          id_pays          │
+│                           │
+│         35690 Rows        │
+│          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         TABLE_SCAN        │
@@ -18,40 +48,9 @@ SELECT * FROM read_csv_auto('data/fact_resultats_epreuves.csv')
 │         Function:         │
 │       READ_CSV_AUTO       │
 │                           │
-│        Projections:       │
-│        id_resultat        │
-│     id_resultat_source    │
-│           source          │
-│ id_athlete_base_resultats │
-│        id_personne        │
-│        athlete_nom        │
-│       athlete_prenom      │
-│         id_equipe         │
-│         equipe_en         │
-│          id_pays          │
-│   pays_en_base_resultats  │
-│     classement_epreuve    │
-│  performance_finale_texte │
-│     performance_finale    │
-│            ...            │
-│         specialite        │
-│         id_epreuve        │
-│          epreuve          │
-│       epreuve_genre       │
-│        epreuve_type       │
-│  est_epreuve_individuelle │
-│   est_epreuve_olympique   │
-│      est_epreuve_ete      │
-│     est_epreuve_handi     │
-│   epreuve_sens_resultat   │
-│       id_federation       │
-│         federation        │
-│    federation_nom_court   │
-│        dt_creation        │
-│      dt_modification      │
-│                           │
+│    Projections: id_pays   │
 │    Total Files Read: 1    │
 │                           │
 │         35690 Rows        │
-│          (0.08s)          │
+│          (0.04s)          │
 └───────────────────────────┘

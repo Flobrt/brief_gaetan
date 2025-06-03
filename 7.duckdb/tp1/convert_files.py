@@ -16,7 +16,7 @@ if os.path.exists(output_dir):
             print(f"Erreur lors de la suppression du fichier {file_path}: {e}")
 
 # Connexion à une base DuckDB
-con = duckdb.connect("../outputs/jeux_olympiques.duckdb")
+con = duckdb.connect("../data/jeux_olympiques.duckdb")
 
 # Lire le CSV et l'écrire en Parquet
 con.execute("""
@@ -31,6 +31,7 @@ csv_path = "data/fact_resultats_epreuves.csv"
 parquet_path = "../outputs/jeux_olympiques.parquet"
 
 # Création d'une table DuckDB à partir du fichier Parquet
+con.execute("DROP TABLE IF EXISTS resultats")
 con.execute(f"""
     CREATE TABLE resultats AS
     SELECT * FROM parquet_scan('{parquet_path}')

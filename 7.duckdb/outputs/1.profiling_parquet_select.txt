@@ -1,0 +1,57 @@
+┌─────────────────────────────────────┐
+│┌───────────────────────────────────┐│
+││    Query Profiling Information    ││
+│└───────────────────────────────────┘│
+└─────────────────────────────────────┘
+SELECT * FROM parquet_scan('../outputs/jeux_olympiques.parquet')
+┌────────────────────────────────────────────────┐
+│┌──────────────────────────────────────────────┐│
+││              Total Time: 0.0876s             ││
+│└──────────────────────────────────────────────┘│
+└────────────────────────────────────────────────┘
+┌───────────────────────────┐
+│           QUERY           │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         TABLE_SCAN        │
+│    ────────────────────   │
+│         Function:         │
+│        PARQUET_SCAN       │
+│                           │
+│        Projections:       │
+│        id_resultat        │
+│     id_resultat_source    │
+│           source          │
+│ id_athlete_base_resultats │
+│        id_personne        │
+│        athlete_nom        │
+│       athlete_prenom      │
+│         id_equipe         │
+│         equipe_en         │
+│          id_pays          │
+│   pays_en_base_resultats  │
+│     classement_epreuve    │
+│  performance_finale_texte │
+│     performance_finale    │
+│            ...            │
+│         specialite        │
+│         id_epreuve        │
+│          epreuve          │
+│       epreuve_genre       │
+│        epreuve_type       │
+│  est_epreuve_individuelle │
+│   est_epreuve_olympique   │
+│      est_epreuve_ete      │
+│     est_epreuve_handi     │
+│   epreuve_sens_resultat   │
+│       id_federation       │
+│         federation        │
+│    federation_nom_court   │
+│        dt_creation        │
+│      dt_modification      │
+│                           │
+│    Total Files Read: 1    │
+│                           │
+│         35690 Rows        │
+│          (0.01s)          │
+└───────────────────────────┘

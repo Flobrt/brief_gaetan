@@ -19,5 +19,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # CMD à adapter selon usage
-CMD ["python", "convert_files.py"]
+# CMD ["python", "convert_files.py"]
+CMD ["sh", "-c", "python convert_files.py && sleep infinity"]
+
 

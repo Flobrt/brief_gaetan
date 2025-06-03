@@ -3,10 +3,10 @@
 ││    Query Profiling Information    ││
 │└───────────────────────────────────┘│
 └─────────────────────────────────────┘
-     SELECT          id_pays,         COUNT(*) AS total_podiums     FROM read_csv_auto('data/fact_resultats_epreuves.csv')     GROUP BY id_pays     ORDER BY total_podiums DESC     LIMIT 10 
+     SELECT          id_pays,         COUNT(*) AS total_podiums     FROM resultats     GROUP BY id_pays     ORDER BY total_podiums DESC     LIMIT 10 
 ┌────────────────────────────────────────────────┐
 │┌──────────────────────────────────────────────┐│
-││              Total Time: 0.233s              ││
+││              Total Time: 0.0015s             ││
 │└──────────────────────────────────────────────┘│
 └────────────────────────────────────────────────┘
 ┌───────────────────────────┐
@@ -24,7 +24,17 @@
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
-│       HASH_GROUP_BY       │
+│         PROJECTION        │
+│    ────────────────────   │
+│__internal_decompress_integ│
+│     ral_bigint(#0, 1)     │
+│             #1            │
+│                           │
+│          212 Rows         │
+│          (0.00s)          │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│   PERFECT_HASH_GROUP_BY   │
 │    ────────────────────   │
 │         Groups: #0        │
 │                           │
@@ -32,7 +42,7 @@
 │        count_star()       │
 │                           │
 │          212 Rows         │
-│          (0.01s)          │
+│          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
 │         PROJECTION        │
@@ -43,14 +53,21 @@
 │          (0.00s)          │
 └─────────────┬─────────────┘
 ┌─────────────┴─────────────┐
-│         TABLE_SCAN        │
+│         PROJECTION        │
 │    ────────────────────   │
-│         Function:         │
-│       READ_CSV_AUTO       │
-│                           │
-│    Projections: id_pays   │
-│    Total Files Read: 1    │
+│__internal_compress_integra│
+│     l_usmallint(#0, 1)    │
 │                           │
 │         35690 Rows        │
-│          (0.04s)          │
+│          (0.00s)          │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         TABLE_SCAN        │
+│    ────────────────────   │
+│      Table: resultats     │
+│   Type: Sequential Scan   │
+│    Projections: id_pays   │
+│                           │
+│         35690 Rows        │
+│          (0.00s)          │
 └───────────────────────────┘

@@ -1,0 +1,23 @@
+services:
+    duckdb:
+        build: ./tp1
+        container_name: duckdb_container_tp1
+        volumes:
+        - ./data:/data
+        - ./outputs:/outputs
+
+    duckdb-tp2:
+        build: ./tp2
+        container_name: duckdb_container_tp2
+        volumes:
+        - ./data:/data
+        - ./outputs:/outputs
+
+    duckdb-tp3:
+        build: ./tp3
+        container_name: duckdb_container_tp3
+        ports:
+        - "8080:8080"
+        volumes:
+        - ./data:/data
+        - ./outputs:/outputs

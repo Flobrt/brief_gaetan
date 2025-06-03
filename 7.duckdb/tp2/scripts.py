@@ -4,6 +4,7 @@ import duckdb as dd
 import logging
 # import json
 
+print('ok')
 # Set up logging
 logging.basicConfig(
     filename    = "../data/weather_data.log",
